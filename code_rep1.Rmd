@@ -1,0 +1,38 @@
+---
+title: "Replication #1"
+author: "Hannah Hardenbergh and Helen Simpson"
+date: "2/4/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+# Load necessary libraries.
+
+library(devtools)
+library(gt)
+library(tidyverse)
+
+# Load data. rename dataframes for ease of mind.
+
+data_case <- read_csv("glynn_sen_daughters_by_case_1.csv")
+data_judge <- read_csv("glynn_sen_daughters_by_judge.csv")
+
+read_csv("glynn_sen_daughters_replication_code.R")
+
+
+
+
+```
+
+```{r Table 1}
+
+```
+
+```{r Table 2}
+
+```
+
